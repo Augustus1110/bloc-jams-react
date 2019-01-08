@@ -61,11 +61,9 @@ class Album extends Component {
                 return(
                   <td><button><span className="icon ion-md-play"></span></button></td>
                 );
-
             } else {
-
               return(
-                <td>{ index+1}</td>
+                <td>{index+1}</td>
               );
             }
         }
